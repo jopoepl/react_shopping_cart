@@ -1,9 +1,9 @@
-import Products from "./Products";
+import ProductsRedux from "./ProductsRedux";
 
 function Main(props) {
   return (
     <div className="main flex-80">
-      <Products data={props.products} />
+      <ProductsRedux products={props.products} />
     </div>
   );
 }
